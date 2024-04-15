@@ -1,5 +1,14 @@
 /* Fill CSS here */
-
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: cadetblue;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 
 h1{
     color: royalblue;
@@ -66,6 +75,7 @@ td{
     text-align: center;
 }
 button{
+    cursor: pointer;
     background-color: cornflowerblue;
     border: none;
     color: white;
